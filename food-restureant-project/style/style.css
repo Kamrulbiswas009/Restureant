@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 100vh;
+    background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+#hero .hero-contant{
+    width: 400px;
+    
+
+}
+#hero .hero-contant .subtittle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0,7;
+    
+}
+#hero .hero-contant .tittle{
+    color: rgb(179, 58, 58);
+    font-family: Work Sans;
+    font-size: medium;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#hero .hero-contant .descriation{
+    color: rgb(249, 248, 248);
+    font-family: Work Sans;
+    font-size: small;
+    font-weight: 600;
+    line-height: 16x;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0,7;
+    margin-bottom: 22px;
+}
+.btn{
+padding: 10px 14px 10px 14px;
+color: white;
+font-family: Work Shns;
+font-size: 12x;
+font-weight: 600;
+line-height: 16px;
+border-radius: 6px;
+background-color: aqua;
+border: none;
+cursor: pointer;
+
+}
+.btn-container{
+    text-align: center;
+
+}
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+    
+}
+#card-box .title{
+    color: black;
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
+}
+#card-box .subtitle{
+    color: black;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card{
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .image-box{
+    width: 230px;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+.card .shop{
+    background-color: aqua;
+    padding: 10px 18px 10px 18px;
+    border: 8px;
+    border-radius: 5px;
+    
+}
+.card-container{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-us{
+    display: flex;
+    margin-top: 80px;
+    height: 442px;
+    width: 100%;
+}
+.about-us-img{
+    width: 50%;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    line-height: 20px;
+    padding: 0px;
+}
+.about-title{
+    margin-top: 80px;
+    font-size: 28px;
+    font-family: Work Sans;
+    text-align: center;
+    font-weight: 700;}
+.about-title-title{
+    margin-top: 15px;
+    font-family: Work Sans;
+    font-weight: 300;
+}
+.about-us h3{
+    margin-top: 3px;
+}
+.about{
+    width: 10;
+    height: 800pxc;
+}
+.about-para{
+    font-family: Work Sans;
+    text-align: center;
+}
+.we{
+    margin-top: -20;
+
+}
+.about .lorem{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
