@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45PX;
+
+}
+.text-primary{
+    color: #FD6E0A;
+
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.btn-primaer{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: medium;
+    padding: 20px 35px;
+    border-radius: 6px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600px;
+
+}
+.banner-profile-pic{
+    width: 500px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 27px 0 200px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.header{
+    background-image: url(/developer.png), url(/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
