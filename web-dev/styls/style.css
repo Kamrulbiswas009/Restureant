@@ -90,6 +90,63 @@ main{
     display: flex;
     justify-content: space-between;
 }
-item-description{
+.item-description{
     font-weight: 600;
 }
+.skills-container{
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgb(246, 212, 188);
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* resume style */
+.resume-container{
+    margin-top: 150px;
+    display: flex;
+    gap: 24px;
+}
+
+/* .resume .section-title{
+    margin-bottom: 600px;
+} */
+ .experience-description{
+    color: rgb(117, 117, 117);
+
+ }
+ .experience-sub-title{
+ color: rgb(117, 117, 117);
+font-family: Open Sans;
+letter-spacing: 0;
+font-weight: 600 ;
+ }
+ .resume hr{
+    margin: 30px 5px;
+ }
+ .btn-primary{
+    /* position:absolute; */
+    width: 150px;
+    height: 30px;
+
+    background-color: #FD6E0A;
+    text-shadow: #3d11ab;
+    border: 100px;
+    border-radius: 120px;
+ }
+ /* .section-me{ */
+    width: 1600px;
+    height: 4256px;
+ /* } */
+  footer{
+    background-color: rgb(31, 18, 41)
+    display: flex;
+    justify-content: space-between;
+ } 
